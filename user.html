@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>user Icon</title>
+    <script src="https://kit.fontawesome.com/33b003f8c8.js" crossorigin="anonymous"></script>
     <style>
         .login-form{
             display: flex;
@@ -34,9 +35,34 @@
         .menu {
             text-decoration: none;
         }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color:black;
+            font-size: 1.3em;
+            margin-right: 20px;
+            font-family:sans-serif;
+        }
     </style>
 </head>
-<body>  
+<body> 
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+            <a href="">Order</a>
+            <a href="">Pages</a>
+            <a href="">About Us</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header> 
     <section class="login-container">
         <form action="" class="login-form">
             <h2>login</h2>

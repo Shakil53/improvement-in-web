@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flax{
+            display: flexbox;
+        }
+        .photo-album{
+                width: 225px;
+                height: 300px;
+                border: 3px solid goldenrod;
+                display: flex;
+                margin: 10px;
+                 
+        }
+        .photo-frame img{
+            width: 100%;
+            height: 100%;
+        
+        }
+        .photo-frame:hover{
+            transform: rotate(360deg);
+            transition: transform 1.5s;
+        }
+        .photo-detail h3{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        .photo-detail{
+            background-color: rgba(197, 170, 135, 0.2);
+            color:black;
+            width: 225px;
+            position: absolute;
+            display: none;
+        }
+        .photo-album:hover .photo-detail{
+            display: block;
+
+        }
+        
+    </style>
+    
+</head>
+<body>          
+    <h2>Photo Albam</h2>
+    <div class="photo-album">
+            <div class="photo-frame">
+                    <img src="shakil.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is Me Shakil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum itaque sit mollitia dolorum ducimus ea sapiente quis praesentium esse ex.</p>
+            </div>
+    </div>
+    <div class="photo-album">
+            <div class="photo-frame">
+                <img src="shakil.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is Me Shakil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum itaque sit mollitia dolorum ducimus ea sapiente quis praesentium esse ex.</p>
+            </div>
+    </div>
+    <div class="photo-album">
+            <div class="photo-frame">
+                <img src="shakil.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>This is Me Shakil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum itaque sit mollitia dolorum ducimus ea sapiente quis praesentium esse ex.</p>
+            </div>
+    </div>
+    
+
+</body>
+</html>
